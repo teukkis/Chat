@@ -1,0 +1,83 @@
+$primary-color : #1a6b8b;
+$nav-height: 5vh;
+$content-height: 90vh;
+$allMessages-height: 60vh;
+$messageInput-height: 20vh;
+
+body {
+    background-image: linear-gradient(rgb(159, 181, 253), rgb(228, 240, 255), rgb(159, 181, 255));
+    width: 100%;
+    height: 100vh;
+}
+
+.cont {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 1.5em;
+}
+
+.contact {
+    height: $content-height - 11vh;
+}
+
+.emptyNav {
+    height: $nav-height;
+    
+}
+
+.messageFieldBar {
+    height: 20px;
+    background-color: #ffffff;
+}
+
+.messages {
+    height: $content-height;
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-family: 'stoke, arial, sans-serif';
+}
+
+.headers {
+    font-family: 'stoke, arial, sans-serif';
+    font-weight: bold;
+    color: #414141;
+    font-size: 2.4rem;
+}
+
+
+.allMessages {
+    max-height: $allMessages-height;
+    overflow: scroll;
+    overflow-x: hidden;
+    
+}
+
+.allMessages::-webkit-scrollbar {
+    height: $allMessages-height;
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+
+.messageInput {
+    height: $messageInput-height;
+}
+
+
+.formLabels {
+    font-size: large;
+    color: #ece9e9;
+    font-weight: bold;
+}
+
+.loginForm {
+    width: 35vw;
+    background-color: rgba($color: #221d1d, $alpha: 0.5);
+    padding: 30px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    font-family: 'stoke, arial, sans-serif'
+}

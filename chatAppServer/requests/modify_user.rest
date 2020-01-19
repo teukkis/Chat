@@ -1,0 +1,9 @@
+PUT http://localhost:2999/api/users/Phil HTTP/1.1
+content-type: application/json
+
+{
+    "username": "Phil",
+    "status": "aaa",
+    "location": "yyy",
+    "icon": "www"
+}
